@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRISALIA world</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #2a003f, #6b00b3);
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            padding: 30px 0 10px 0;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 10px 0;
+            text-shadow: 2px 2px #000;
+        }
+        a.button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #9b4dff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: background 0.3s ease;
+        }
+        a.button:hover {
+            background-color: #bb70ff;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 10px 0;
+            overflow: hidden;
+        }
+        .marquee {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 12s linear infinite;
+            font-size: 0.9em;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="crisalia-logo.png" alt="Crisalia Logo">
+        <h1>CRISALIA world</h1>
+        <a class="button" href="https://discord.gg/sAvjYZh3Kj" target="_blank">Перейти к #анкета в Discord</a>
+    </header>
+
+    <footer>
+        <div class="marquee">Покупку совершили: AlexMC, KatePlay, DimonYT, MegaFox, RinaCraft, ShadowWolf</div>
+    </footer>
+</body>
+</html>
